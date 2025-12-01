@@ -134,6 +134,57 @@ const DEFAULT_SUB_DOMAIN = "sub.cmliussss.net";  // 真实订阅源（用于聚�
 
 
 
+---------------------------------------------------------------------
+
+ # pages部署
+
+**1.上传到 Cloudflare Pages** 【因为cloudflare改了UI 所以全新的方法】 
+
+**特别注意 修改的内容要在github上的  worker.js  进行修改之后会同步cloudflare pages项目**
+
+1.登录 Cloudflare  找到计算AI-找到worker和pages
+<img width="414" height="193" alt="image" src="https://github.com/user-attachments/assets/75c41546-cc6a-4a2f-9fa5-3632f0d89104" />
+点击创建应用程序
+<img width="1494" height="188" alt="image" src="https://github.com/user-attachments/assets/6ddd7c84-4a4f-4ddc-bd41-f2d550139999" />
+点击下方的Get started 跳转到pages界面
+<img width="1294" height="601" alt="image" src="https://github.com/user-attachments/assets/f5fdaa8d-d86a-471e-93de-9107db440443" />
+选择第一个github 
+<img width="1281" height="475" alt="image" src="https://github.com/user-attachments/assets/8932221a-6480-491d-baf9-a26fc67a852b" />
+选择好的绑定好的github账号 如果没有绑定你需要自己绑定 然后选择好你fork的项目
+<img width="1318" height="606" alt="image" src="https://github.com/user-attachments/assets/2518c4e5-8503-4b4c-80f9-6ca06dfb0df9" />
+点击开始设置
+
+写好项目名称【自己写】
+写好项目名称之后 点击保存并部署
+<img width="1113" height="870" alt="image" src="https://github.com/user-attachments/assets/1c215f82-98fc-42d0-aed5-2bd032e3b859" />
+
+这样pages github部署方法就完成了
+
+----------------------------------------------------------------------------------------------------------------------------------
+
+**2.pages 上传方法** 
+
+**【注意 修改任何内容都需要重新上传一次文件夹或者是压缩包zip】**
+
+1.登录 Cloudflare  找到计算AI-找到worker和pages
+<img width="414" height="193" alt="image" src="https://github.com/user-attachments/assets/75c41546-cc6a-4a2f-9fa5-3632f0d89104" />
+点击创建应用程序
+<img width="1494" height="188" alt="image" src="https://github.com/user-attachments/assets/6ddd7c84-4a4f-4ddc-bd41-f2d550139999" />
+点击下方的Get started 跳转到pages界面
+<img width="1294" height="601" alt="image" src="https://github.com/user-attachments/assets/f5fdaa8d-d86a-471e-93de-9107db440443" />
+选择第二个
+<img width="1288" height="509" alt="image" src="https://github.com/user-attachments/assets/5f823410-7308-4425-9e77-a66646235e00" />
+输入项目名称 点击创建项目
+<img width="1396" height="690" alt="image" src="https://github.com/user-attachments/assets/c10dc676-a06a-4a6b-bc62-f24239f454b0" />
+
+**上传文件 【可上传zip包】 【可上传文件夹】**
+
+<img width="1330" height="667" alt="image" src="https://github.com/user-attachments/assets/5dec9d85-9fcb-4b95-89c6-a7d8c57be661" />
+
+**点击部署站点 完成**
+
+
+
 ----------------------------------------------------------------------
 
 # cloudflare snip部署 【有snippets的必看】
